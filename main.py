@@ -40,7 +40,7 @@ house_owner_sport = [
     "What is my favorite sport?",
     "You have always loved esports."
 ]
-custom_train(home_bot, house_owner)
+custom_train(home_bot, house_owner, house_owner_born, house_owner_book, house_owner_movie, house_owner_sport)
 
 print("------ Training custom data ------")
 # write and train your custom data here IF the identity is Mark
