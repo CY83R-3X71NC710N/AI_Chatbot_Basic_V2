@@ -8,11 +8,13 @@ train_all_data(home_bot)
 
 # check identity
 identity = input("State your identity please: ")
+
 if identity == 'Mark':
-    print ('Welcome, Mark. Happy to have you at home.')
-elif identity == 'Jane'
-    print ('Mark is out right now, but you are welcome to the house.')
-else print ('Your access is denied here.')
+    print('Welcome, Mark. Happy to have you at home.')
+elif identity == 'Jane':
+    print('Mark is out right now, but you are welcome to the house.')
+else:
+    print('Your access is denied here.')
     exit()
 
     
