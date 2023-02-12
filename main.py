@@ -22,27 +22,19 @@ else:
 # write your code here
 
 # custom data
-house_owner = [
+house = [
     "Who is owner of this house?",
-    "Mark Nicholas is the owner of this house."
-]
-house_owner_born = [
+    "Mark Nicholas is the owner of this house.",
     "Where was I born?",
-    "Bro, I ain't even know some dude in a basement decided to program me."
-]
-house_owner_book = [
+    "Bro, I ain't even know some dude in a basement decided to program me.",
     "What is my favorite book?",
-    "That is easy. Your favourite book is deus ex machina."
-]
-house_owner_movie = [
+    "That is easy. Your favourite book is deus ex machina.",
     "What is my favorite movie?",
-    "You have watched a documentary named documentary more times than I can count. (Lie because I cool robot and you are human with error I can count 100% everything you have done)"
-]
-house_owner_sport = [
+    "You have watched a documentary named documentary more times than I can count. (Lie because I cool robot and you are human with error I can count 100% everything you have done)",
     "What is my favorite sport?",
-    "You have always loved esports."
+    "You have always loved esports.",
 ]
-custom_train(home_bot, house_owner, house_owner_born, house_owner_book, house_owner_movie, house_owner_sport)
+custom_train(home_bot, house)
 
 print("------ Training custom data ------")
 # write and train your custom data here IF the identity is Mark
