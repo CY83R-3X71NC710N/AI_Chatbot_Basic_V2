@@ -21,6 +21,18 @@ house_owner_born = [
     "Where was I born?",
     "Bro, I ain't even know some dude in a basement decided to program me."
 ]
+house_owner_book = [
+    "What is my favorite book?",
+    "That is easy. Your favourite book is deus ex machina."
+]
+house_owner_movie = [
+    "What is my favorite movie?",
+    "You have watched a documentary named documentary more times than I can count. (Lie because I cool robot and you are human with error I can count 100% everything you have done)"
+]
+house_owner_sport = [
+    "What is my favorite sport?",
+    "You have always loved esports."
+]
 custom_train(home_bot, house_owner)
 
 print("------ Training custom data ------")
