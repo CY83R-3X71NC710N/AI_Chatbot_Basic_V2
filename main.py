@@ -17,9 +17,9 @@ house_owner = [
     "Who is owner of this house?",
     "Mark Nicholas is the owner of this house."
 ]
-house_owner = [
-    "Who is owner of this house?",
-    "Mark Nicholas is the owner of this house."
+house_owner_born = [
+    "Where was I born?",
+    "Bro, I ain't even know some dude in a basement decided to program me."
 ]
 custom_train(home_bot, house_owner)
 
