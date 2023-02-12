@@ -1,4 +1,5 @@
 from functions import *
+import time
 
 # create chatbot 
 home_bot = create_bot('Jordan')
@@ -11,10 +12,13 @@ identity = input("State your identity please: ")
 
 if identity == 'Mark':
     print('Welcome, Mark. Happy to have you at home.')
+    time.sleep(3)
 elif identity == 'Jane':
     print('Mark is out right now, but you are welcome to the house.')
+    time.sleep(3)
 else:
     print('Your access is denied here.')
+    time.sleep(3)
     exit()
 
     
